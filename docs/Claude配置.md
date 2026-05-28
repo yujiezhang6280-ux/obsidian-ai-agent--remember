@@ -23,3 +23,8 @@ Path is outside allowed working directories
 
 说明 Claude 当前没有权限读取 Obsidian 路径。需要在 Claude 中允许该路径，或把 Claude 的工作目录设置到 Obsidian 记忆库。
 
+## 项目记忆兼容
+
+Claude 不需要安装 Codex 的私有 Skill。只要它按 `CLAUDE.md` 入口读取，并把项目记忆写入中文 `_项目记忆/` 结构即可。
+
+如果旧文档提到 `_project_memory/`、`00-critical.md`、`parents.md` 或 `99-index.md`，按 `AI记忆/30_项目记忆/说明.md` 的映射处理。
