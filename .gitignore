@@ -1,0 +1,32 @@
+# 操作系统和编辑器
+.DS_Store
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+
+# 私密或运行期记忆内容
+AI记忆/20_结构化记忆/_收件箱/**
+AI记忆/20_结构化记忆/_待确认/**
+AI记忆/20_结构化记忆/_归档/**
+AI记忆/20_结构化记忆/_操作记录/**
+AI记忆/50_来源归档/**
+AI记忆/60_日常记录/**
+AI记忆/80_附件/**
+
+# 保留目录说明文件
+!**/说明.md
+!**/.gitkeep
+
+# 常见敏感文件
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*password*
+*credentials*
+*secrets*
+*token*
+*账号密码*
+
