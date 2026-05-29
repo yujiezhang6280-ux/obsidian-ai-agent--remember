@@ -27,4 +27,13 @@ Path is outside allowed working directories
 
 Claude 不需要安装 Codex 的私有 Skill。只要它按 `CLAUDE.md` 入口读取，并把项目记忆写入中文 `_项目记忆/` 结构即可。
 
+项目记忆支持：
+
+```text
+AI记忆/30_项目记忆/<状态>/<独立项目>/_项目记忆/
+AI记忆/30_项目记忆/<状态>/<项目组>/<项目名>/_项目记忆/
+```
+
+没有 `_项目记忆/` 的中间目录是项目组容器，应继续向下一层查找，不要把项目事实写在容器目录。
+
 如果旧文档提到 `_project_memory/`、`00-critical.md`、`parents.md` 或 `99-index.md`，按 `AI记忆/30_项目记忆/说明.md` 的映射处理。
